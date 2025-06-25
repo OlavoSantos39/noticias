@@ -6,6 +6,12 @@
 }
 body {
     background-image: linear-gradient(to right,#D6D58E, #9FC131);
+    font-size: 16px;
+}
+@media (max-width: 768px) {
+    body {
+        font-size: 14px;
+    }
 }
 main {
     background-color: #d6d5a9;
