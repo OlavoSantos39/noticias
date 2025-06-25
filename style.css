@@ -1,5 +1,23 @@
 @charset "UTF-8";
 
+.container {
+  display: flex;
+  flex-wrap: wrap;
+}
+.item {
+  flex: 1 1 300px;
+}
+@media (max-width: 768px) {
+  .menu {
+    flex-direction: column;
+  }
+}
+img, video {
+  max-width: 100%;
+  height: auto;
+}
+
+
 . {
     height: 100%;
     font-family: Arial, Helvetica, sans-serif;
@@ -7,6 +25,12 @@
 body {
     background-image: linear-gradient(to right,#D6D58E, #9FC131);
     font-size: 16px;
+    
+}
+.item {
+  flex: 1 1 300px;
+}
+
 }
 @media (max-width: 768px) {
     body {
