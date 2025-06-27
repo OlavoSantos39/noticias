@@ -1,11 +1,6 @@
 @charset "UTF-8";
-@media (max-width: 768px) {
-  body {
-    background-color: lightblue;
-  }
-}
-
-
+@media (max-width: 768px)
+ 
 . {
     font-family: Arial, Helvetica, sans-serif;
     height: 100%;
