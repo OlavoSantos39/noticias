@@ -1,9 +1,14 @@
 @charset "UTF-8";
-@media screen and (max-width: 768px){
-    .colaborador img {
-        width: 30%;
-    }
+@media (max-width: 768px) {
+  /* Estilos para telas menores que 768px (ex: tablets e celulares) */
+  .container {
+    display: block; /* Exibe o container como um bloco */
+  }
+  .menu {
+    width: 100%; /* Menu ocupa 100% da largura da tela */
+  }
 }
+
 . {
     font-family: Arial, Helvetica, sans-serif;
     height: 100%;
@@ -12,10 +17,10 @@ p {
     text-align: justify;
 }
 body {
-    background-image: linear-gradient(90deg, rgb(141, 145, 134), rgb(148, 148, 61));
+    background-image: linear-gradient(90deg, rgb(197, 72, 23), rgb(148, 148, 61));
 }
 main {
-    background-color: rgb(214, 197, 197);
+    background-color: rgb(219, 214, 214);
     border-radius: 20px;
     box-shadow: 10px 10px 10px rgb(7, 7, 7);
     width: 600px;
@@ -26,8 +31,13 @@ h1 {
    font-style: oblique;
    text-align: center;
    text-shadow: 1px 1px 0.2px black;
+   background-image: linear-gradient(to right, rgb(148, 148, 61), rgb(197, 72, 23));
 }
 h2 {
     font-style: oblique;
     text-align: center;
+    background-image: linear-gradient(to right,  rgb(148, 148, 61), rgb(197, 72, 23));
+}
+a {
+    background-image: linear-gradient(to right,  rgb(148, 148, 61), rgb(197, 72, 23));
 }
