@@ -1,5 +1,22 @@
 @charset "UTF-8";
 
+body {
+  font-size: 16px;
+}
+
+body {
+  font-size: 16px;
+}
+@media (max-width: 768px) {
+  body {
+    font-size: 14px;
+  }
+}
+@media (min-width: 769px) and (max-width: 1024px) {
+  body {
+    font-size: 15px;
+  }
+}
 . {
     font-family: Arial, Helvetica, sans-serif;
     height: 100%;
@@ -74,9 +91,7 @@ img {
     border-radius: 20px;
 }
 /* Estilos padrão para telas maiores */
-body {
-  font-size: 16px;
-}
+
 
 /* Media query para telas menores (ex: smartphones) */
 @media (max-width: 768px) {
