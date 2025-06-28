@@ -1,19 +1,5 @@
 @charset "UTF-8";
 
-body {
-  font-size: 14px;
-}
-@media (max-width: 768px) 
-  body {
-    font-size: 14px;
-  }
-.container {
-    width: 95%;
-    margin: 0 auto;
-}
-.grid-item {
-    width: 100%;
-}
 . {
     font-family: Arial, Helvetica, sans-serif;
     height: 100%;
@@ -69,13 +55,12 @@ a {
   align-items: center;
 }
 .card {
-  width: 100px;
-  height: 50px;
+  position: fixed;
+  width: 160px;
   padding: 15px;
   background-color:rgb(141, 103, 103) ;
   box-shadow: 3px 4px 10px rgba(2, 2, 2, 0.89);
   border-radius: 8px;
-  text-align: center;
   transition: transform 0.2s ease;
   a {
     text-align: center;
@@ -83,6 +68,7 @@ a {
 }
 iframe {
     border-radius: 20px;
+   
 }
 img {
     border-radius: 20px;
