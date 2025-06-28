@@ -73,3 +73,22 @@ iframe {
 img {
     border-radius: 20px;
 }
+/* Estilos padrão para telas maiores */
+body {
+  font-size: 16px;
+}
+
+/* Media query para telas menores (ex: smartphones) */
+@media (max-width: 768px) {
+  body {
+    font-size: 14px;
+  }
+  /* Outros estilos para telas menores */
+}
+
+/* Media query para telas médias (ex: tablets) */
+@media (min-width: 769px) and (max-width: 1024px) {
+  body {
+    font-size: 15px;
+  }
+}
