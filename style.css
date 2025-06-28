@@ -1,44 +1,18 @@
 @charset "UTF-8";
 
- @media(max-width: 1024px) {
-    .container {
-        padding: 20px;
-    }
-
-    .container h1 {
-        text-align: center;
-    }
-
-    .container .filtros {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        gap: 16px;
-    }
-
-    .container .filtros .categorias-cartas, 
-    .container .filtros .preco-cartas,
-    .container .filtros .btn-filtrar
-    {
-        width: 65%;
-    }
-
-    .container .filtros .btn-filtrar {
-        align-self: center;
-    }
-
-    .container .cartas {
-        justify-content: center;
-    }
-}
-
-@media(max-width: 480px) {
-    .container .filtros .categorias-cartas, 
-    .container .filtros .preco-cartas,
-    .container .filtros .btn-filtrar {
-        width: 100%;
-    }
-}
+@media (max-width: 768px) {
+  /* Estilos para telas com largura máxima de 768px (tablets e celulares) */
+  body {
+    font-size: 14px; /* Tamanho da fonte */
+  }
+  .container {
+    width: 95%; /* Largura do container */
+    margin: 0 auto; /* Centraliza o container */
+  }
+  .grid-item {
+    width: 100%; /* Cada item do grid ocupa 100% da largura */
+  }
+} 
 . {
     font-family: Arial, Helvetica, sans-serif;
     height: 100%;
